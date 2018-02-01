@@ -7,7 +7,7 @@ elif [ $1 = ss ]; then
 ssh root@172.104.71.112
 elif [ $1 = pi ]
 then
-    ssh pi@192.168.0.8
+    ssh pi@192.168.0.92
 elif [ $1 = 3328 ]
 then
     ssh firefly@192.168.0.9
