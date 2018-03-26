@@ -1,2 +1,3 @@
 #!/bin/bash
-g++ $1 -o main `pkg-config --cflags --libs opencv`
+
+color_compile g++ $1 -o ${1%.*} -std=c++17 `pkg-config --cflags --libs opencv`
