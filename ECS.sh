@@ -4,7 +4,7 @@ ssh root@123.207.126.120
 elif [ $1 = ali ]; then
 ssh root@120.79.173.163
 elif [ $1 = ss ]; then
-    ssh root@139.162.96.109
+    ssh root@206.189.213.12
 elif [ $1 = pi ]
 then
     ssh ubuntu@192.168.0.92
